@@ -43,13 +43,16 @@ print(name[1])
 print(name[2])
 print(name[3])
 
-
 #3.3)
-print("ciao best " , nomi[0] , "come stai?")
-print("ciao tata", nomi [1] ,"stai andado a casa?")
-print("ciao bello" , nomi [2] , "vieni al cinema?")
-print("ciao splendore" , nomi [3] , "vieni dal paninaro stasera?")
-print("ciao bellssimo" , nomi [4] , "con me dal parrucchiere?")
+car :list =["Mercedes","Ferrari","Lamborghini","Maserati"]
+message :list= ["vorreiguidare una", "mi piacerebbe avere una","mi piacerebbe comprarne una","desidero una"]
+print(message[0] , car[0])
+
+#3.4)
+print("ciao best " , name[0] , "come stai?")
+print("ciao tata", name[1] ,"stai andado a casa?")
+print("ciao bello" , name[2] , "vieni al cinema?")
+print("ciao splendore" , name[3] , "vieni dal paninaro stasera?")
 #da finire e poi scriverli
 
 
