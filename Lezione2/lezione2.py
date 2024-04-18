@@ -36,12 +36,18 @@ print(message)
 filename:str ="prova.txt"
 print(filename.removesuffix(".txt"))
 
-#3.2)
+#3.1)
 name =["luca","elena","gino" , "giuseppe"]
 print(name[0])
 print(name[1])
 print(name[2])
 print(name[3])
+
+#3.2)
+print("ciao best " , name[0] , "come stai?")
+print("ciao tata", name[1] ,"stai andado a casa?")
+print("ciao bello" , name[2] , "vieni al cinema?")
+print("ciao splendore" , name[3] , "vieni dal paninaro stasera?")
 
 #3.3)
 car :list =["Mercedes","Ferrari","Lamborghini","Maserati"]
@@ -49,12 +55,17 @@ message :list= ["vorreiguidare una", "mi piacerebbe avere una","mi piacerebbe co
 print(message[0] , car[0])
 
 #3.4)
-print("ciao best " , name[0] , "come stai?")
-print("ciao tata", name[1] ,"stai andado a casa?")
-print("ciao bello" , name[2] , "vieni al cinema?")
-print("ciao splendore" , name[3] , "vieni dal paninaro stasera?")
-#da finire e poi scriverli
+guests : list =["Terenzio" ,"Fabrizio" , "Annibale", "Marco"]
+for name in guests :
+    print(name, " vieni a cena?")
 
+
+#3.5)
+print("Terenzio")
+guests[0]= "Tommaso"
+
+for name in guests :
+    print(name, " vieni a cena?")
 
 
 
