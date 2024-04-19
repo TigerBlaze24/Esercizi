@@ -18,3 +18,19 @@ def substract(z:int , y:int):
     return a
 out = substract (8,4)
 print(out)
+
+#
+def median(l:list[float]) -> float:
+    l= sorted(l)#dopoaverdefinitolafunzioneho ordinato la lista
+    mid = len(l) //2
+    if len(l)%2!=0:#(ildispari)
+        print("la mia lista ha lunghezza disapri")
+        mediana = l[mid]
+    else:#(il pari)
+        print("la mia lista ha lungheza pari")
+        mediana = (l[mid] + l[mid -1]) /2
+
+    return mediana
+l=[2,9,0,-2,25,2,4]
+mediana = median(l)
+print(f"la mediana della lista{l} è {mediana}")
