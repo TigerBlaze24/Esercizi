@@ -1,7 +1,7 @@
 #Maria Paola Bongiorno
 #18/04/2024
 
-print("hello world")
+
 #2.3)usa una variabile per rappresentare un nome di una persona, stampa il messaggio della persona
 name :str = "Mary"
 print("ciao ti và di mparare un pò di python insieme?")
@@ -66,6 +66,15 @@ guests[0]= "Tommaso"
 
 for name in guests :
     print(name, " vieni a cena?")
+
+#3.6)
+print("ragazzi ho trovato un tavolo più grande")
+guests.insert(0, "Cesare")
+guests.insert(2, "Nerone")
+guests.append("Caio")
+
+print(guests)
+
 
 
 
