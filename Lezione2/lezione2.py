@@ -131,7 +131,7 @@ for key in person:
    print(person[key])
 
 #6.2)
-   favoritenumbers:dict={"Luca":24,
+favoritenumbers:dict={"Luca":24,
              "Astolfo":5,
              "Eurialo":90,
              "Teseo":18,
@@ -153,7 +153,7 @@ for i in people:
    print(i) 
        
 #6.8)     
-   firstpet:dict={"Animal":"dog",
+firstpet:dict={"Animal":"dog",
              "nome":"Astolfo",
              "proprietario":"Eurialo"}            
 secondpet:dict={"animal":"pappagallo",
@@ -170,20 +170,20 @@ for i in pets:
    print(i) 
 
 #6.9)
-   favorite_places:dict={"Terens":"Viterbo",
+favorite_places:dict={"Terens":"Viterbo",
                         "Luca":"Torino",
                         "Odi":"Lucca",}
 for key in favorite_places:
    print(f"{key}:{favorite_places[key]}")
 
 #6.10
-   favoritenumbers:dict={"Luca":("24and9"),
+favoritenumbers:dict={"Luca":("24and9"),
                         "Astolfo":("5and22"),
                         "Eurialo":("8and44"),
                         "Teseo":("18and7"),}
 for key in favoritenumbers:
     print(f"person:{key},favoritenumbers:{favoritenumbers[key]}")
-   #chiedere al prof questo esrcizio su come scrivere due numeri nei diz prima di consegna
+   
 
 
 #6.11)     

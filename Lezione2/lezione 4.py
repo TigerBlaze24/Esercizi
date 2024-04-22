@@ -34,3 +34,12 @@ def median(l:list[float]) -> float:
 l=[2,9,0,-2,25,2,4]
 mediana = median(l)
 print(f"la mediana della lista{l} è {mediana}")
+
+#fare una funzione dove prendo un sequenza cumulativa
+def diff_cum(l:list[float]):
+    x = l[0]
+    for i in l[1:]:
+        x = x-i
+    return x
+l=[1,2,3,4,5,6]
+print(f'La differenza cumulativa è {diff_cum(l)}')
