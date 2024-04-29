@@ -214,7 +214,7 @@ friend_pizzas = favorite_pizzas[:]
 favorite_pizzas.append("Vegetarian")
 
 # Adding a different pizza to the friend_pizzas list
-friend_pizzas.append("Hawaiian")
+friend_pizzas.append("Diavola")
 
 # Printing a sentence for each pizza in the favorite_pizzas list
 print("My favorite pizzas are:")
