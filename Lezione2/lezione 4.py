@@ -43,3 +43,8 @@ def diff_cum(l:list[float]):
     return x
 l=[1,2,3,4,5,6]
 print(f'La differenza cumulativa è {diff_cum(l)}')
+
+#esercizi per casa sulla lezione 4:
+
+#8-1):
+
